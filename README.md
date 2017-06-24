@@ -1,14 +1,12 @@
 # Nodeqr
 
-## Getting Started
+## Example
 
-You can deploy the app via the compose file, which builds the nodeqr image, with
+![alt text][qr]
 
-```
-docker-compose up -d
-```
+[qr]: https://github.com/jonathan-kosgei/nodeqr/raw/master/hello-world.png "Hello World"
 
-This will deploy and nginx proxy in front of the nodeqr container and expose the API on port 80.
+ - `Content:` *Hello World*
 
 ## QR Generation
 
@@ -34,10 +32,12 @@ Supported values include;
 - **Q** - Allows recovery of up to 25% data loss 
 - **H** - Allows recovery of up to 30% data loss
 
-## Example
+## Getting Started
 
-![alt text][qr]
+You can deploy the app via the compose file, which builds the nodeqr image, with
 
-[qr]: https://github.com/jonathan-kosgei/nodeqr/raw/master/hello-world.png "Hello World"
+```
+docker-compose up -d
+```
 
- - `Content:` *Hello World*
+This will deploy and nginx proxy in front of the nodeqr container and expose the API on port 80.
