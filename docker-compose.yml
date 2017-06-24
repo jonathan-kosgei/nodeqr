@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nodeqr:
+    build:
+      context: .
+    image: nodeqr
+    deploy:
+      replicas: 6
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+  nginx:
+    image: nginx:1.13.1-alpine
+    ports:
+      - 80:80
+    volumes:
+      - node.conf:/etc/nginx/conf.d/node.conf

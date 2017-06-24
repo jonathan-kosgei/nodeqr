@@ -1,0 +1,16 @@
+{
+  "name": "node-qr",
+  "version": "1.0.0",
+  "description": "Node QR Code Generator API",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "qrcode": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Kosgei",
+  "license": "ISC"
+}
