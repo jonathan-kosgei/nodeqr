@@ -33,3 +33,8 @@ Supported values include;
 - M - Allows recovery of up to 15% data loss 
 - Q - Allows recovery of up to 25% data loss 
 - H - Allows recovery of up to 30% data loss
+
+## Example
+
+![alt text][logo]
+[logo]: 
