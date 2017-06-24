@@ -36,5 +36,5 @@ Supported values include;
 
 ## Example
 
-![alt text][logo]
-[logo]: https://github.com/jonathan-kosgei/nodeqr/raw/master/hello-world.png
+![Hello World][qr]
+[qr]: https://github.com/jonathan-kosgei/nodeqr/raw/master/hello-world.png
