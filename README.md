@@ -29,12 +29,15 @@ QR code requests support the following URL query parameters after the ? in the r
 
 Supported values include;
 
-- L - [Default] Allows recovery of up to 7% data loss 
-- M - Allows recovery of up to 15% data loss 
-- Q - Allows recovery of up to 25% data loss 
-- H - Allows recovery of up to 30% data loss
+- **L** - [Default] Allows recovery of up to 7% data loss 
+- **M** - Allows recovery of up to 15% data loss 
+- **Q** - Allows recovery of up to 25% data loss 
+- **H** - Allows recovery of up to 30% data loss
 
 ## Example
 
 ![alt text][qr]
+
 [qr]: https://github.com/jonathan-kosgei/nodeqr/raw/master/hello-world.png "Hello World"
+
+ - `Content:` *Hello World*
