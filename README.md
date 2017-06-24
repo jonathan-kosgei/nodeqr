@@ -40,4 +40,4 @@ You can deploy the app via the compose file, which builds the nodeqr image, with
 docker-compose up -d
 ```
 
-This will deploy and nginx proxy in front of the nodeqr container and expose the API on port 80.
+This will deploy an nginx proxy in front of the nodeqr container and expose the API on port 80.
