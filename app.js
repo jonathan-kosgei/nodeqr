@@ -22,7 +22,7 @@ app.get('/create-qr', function (req, res) {
     }
 
     QRCode.toDataURL(content, options, function (err, url) {
-        if (err) res.send("Error message:"+err)
+        if (err) res.status(400).send('Bad Request: '+err);
         res.send(url)
     })
 })
